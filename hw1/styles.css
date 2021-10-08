@@ -1,0 +1,29 @@
+img
+{
+    width: 100%;
+    height: auto;
+  }
+
+  .picture
+  {
+    width: 200px;
+  }
+
+  .bigPicture
+  {
+    width: 800px;
+    float: right;
+  }
+  .picch
+  {
+    width: 40px;
+    position: fixed;
+    bottom:-10px;
+    right:-10px;
+  }
+
+  .picture:hover
+  {
+    opacity: 0.8;
+    width: 210px;
+  }
