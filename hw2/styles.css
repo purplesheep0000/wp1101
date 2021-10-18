@@ -1,0 +1,111 @@
+.container 
+{
+    height: 100%;
+    display: flex;
+}
+
+.button_frame
+{
+    height: 200px;
+    width: 160px; 
+    position: fixed;
+    left: 10px;
+}
+
+.food
+{
+    height: 700px;
+    width: 200px; 
+    position: relative;
+    top: 0px;
+    right: 500px;
+    display: none;
+}
+
+.cat
+{
+    height: 700px;
+    width: 200px; 
+    position: relative;
+    top: 0px;
+    right: 500px;
+    display: none;
+}
+
+.big_square
+{
+    height: 500px;
+    width: 800px; 
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    /*background-color: rgb(69, 189, 189);*/
+    position: relative;
+    top: 100px;
+    left: 500px;
+    /*background-image: url('https://farm4.staticflickr.com/3831/19797406205_6fc7785c9b_c.jpg');*/
+}
+
+
+.frame 
+{  
+    height: 120px;
+    width: 160px; 
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    /*position: relative;
+    top: 500px;
+    left: 0px;
+    float: left;*/
+}
+
+
+
+.frame:hover
+{
+    opacity: 0.8;
+    width: 180px;
+}
+
+.button
+{ 
+    display: block;
+    width: 160px;
+    height: 50px;
+    position: relative;
+    top: 0px;
+    left: 10px;
+    font-size: 32px;
+    color: rgb(75, 62, 45);
+    background-color: rgb(211, 198, 172);
+    margin: 1px;
+    background-position: center;
+    text-align:center;
+}
+
+.button:hover
+{
+    color:rgb(31, 38, 142);
+}
+
+
+
+.frame img 
+{  
+    max-height: 10%;  
+    max-width: 10%; 
+    width: auto;
+    height: auto;
+    position: absolute;  
+    top: 0;  
+    bottom: 0;  
+    left: 0;  
+    right: 0;  
+    margin: auto;
+    float:left;
+    
+}
+
+
+
